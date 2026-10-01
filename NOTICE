@@ -1,0 +1,12 @@
+FARI
+Copyright 2026 Siyuan Xing and Xiao-Ming Fu
+
+This repository does not redistribute model weights or third-party method implementations.
+FLUX.1-dev, GroundingDINO, Segment Anything, COCO, PIE-Bench, and comparison methods are
+separate projects governed by their respective licenses and terms. See README.md for links.
+
+The images under assets/ are author-produced figures from the FARI project.
+
+fari/models/flux_patches.py adapts the FLUX pipeline and attention processor structure
+from Hugging Face Diffusers (https://github.com/huggingface/diffusers), which is licensed
+under the Apache License 2.0.

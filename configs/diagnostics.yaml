@@ -1,0 +1,12 @@
+model: black-forest-labs/FLUX.1-dev
+height: 1024
+width: 1024
+steps: 50
+guidance_scale: 3.5
+pixel_difference_threshold: 0.12
+linear_probe:
+  classifier: logistic_regression
+  standardize: true
+  class_weight: balanced
+  max_iter: 3000
+  cv_folds: 5

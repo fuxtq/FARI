@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fari-image-editing"
+version = "0.1.0"
+description = "Function-Aware Regional Injection for training-free image editing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Siyuan Xing"},
+  {name = "Xiao-Ming Fu"},
+]
+dependencies = [
+  "accelerate==0.34.2",
+  "diffusers==0.30.0",
+  "huggingface-hub==0.25.1",
+  "numpy==2.0.1",
+  "Pillow==10.4.0",
+  "PyYAML==6.0.1",
+  "safetensors==0.4.5",
+  "scikit-image==0.24.0",
+  "scikit-learn==1.5.2",
+  "sentencepiece==0.2.0",
+  "torch==2.4.1",
+  "torchvision==0.19.1",
+  "transformers==4.45.1",
+]
+
+[project.optional-dependencies]
+evaluation = ["lpips==0.1.4", "opencv-python==4.10.0.84"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+fari = "fari.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fari*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

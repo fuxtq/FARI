@@ -1,0 +1,7 @@
+name: refine
+families: [change_color, change_object]
+zones:
+  spatial_anchoring: {stream: double, blocks: [2, 4, 8], region: preserved}
+  pre_activation: {stream: double, blocks: [17], region: full}
+  semantic: {stream: single, blocks: [6, 9], region: full}
+  late_refinement: {stream: single, blocks: [35, 36, 37], region: preserved}

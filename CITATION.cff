@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Function-Aware Regional Injection for Training-Free Image Editing"
+message: "If you find this work useful, please cite the article below."
+type: software
+authors:
+  - family-names: Xing
+    given-names: Siyuan
+  - family-names: Fu
+    given-names: Xiao-Ming
+version: 0.1.0
+date-released: 2026-10-01
+preferred-citation:
+  type: article
+  title: "Function-Aware Regional Injection for Training-Free Image Editing"
+  authors:
+    - family-names: Xing
+      given-names: Siyuan
+    - family-names: Fu
+      given-names: Xiao-Ming
+  journal: Computer Graphics Forum
+  year: 2026
+  notes: "To appear at Pacific Graphics 2026"
