@@ -13,6 +13,7 @@ authors = [
   {name = "Siyuan Xing"},
   {name = "Xiao-Ming Fu"},
 ]
+
 dependencies = [
   "accelerate==0.34.2",
   "diffusers==0.30.0",
@@ -28,6 +29,11 @@ dependencies = [
   "torchvision==0.19.1",
   "transformers==4.45.1",
 ]
+
+[project.urls]
+Paper = "https://doi.org/10.1111/cgf.70614"
+"Eurographics Digital Library" = "https://diglib.eg.org/items/65c31cdc-5a51-4356-bdd8-26f801dbcb68"
+Repository = "https://github.com/fuxtq/FARI"
 
 [project.optional-dependencies]
 evaluation = ["lpips==0.1.4", "opencv-python==4.10.0.84"]

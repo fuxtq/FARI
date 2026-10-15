@@ -2,9 +2,12 @@
 
 **Siyuan Xing, Xiao-Ming Fu**
 
-Accepted to **Pacific Graphics 2026**, to appear in *Computer Graphics Forum*.
+[![Paper](https://img.shields.io/badge/Paper-Eurographics%20Digital%20Library-2b6cb0)](https://diglib.eg.org/items/65c31cdc-5a51-4356-bdd8-26f801dbcb68)
+[![DOI](https://img.shields.io/badge/DOI-10.1111%2Fcgf.70614-2b6cb0)](https://doi.org/10.1111/cgf.70614)
 
-Paper link coming soon.
+Published in *Computer Graphics Forum*, Volume 45, Issue 7 (Pacific Graphics 2026).
+
+**[Paper](https://doi.org/10.1111/cgf.70614)** · **[Eurographics Digital Library](https://diglib.eg.org/items/65c31cdc-5a51-4356-bdd8-26f801dbcb68)**
 
 ![FARI qualitative results across five edit families](assets/teaser.png)
 
@@ -146,12 +149,14 @@ If you find our work useful, please consider citing:
   title   = {Function-Aware Regional Injection for Training-Free Image Editing},
   author  = {Xing, Siyuan and Fu, Xiao-Ming},
   journal = {Computer Graphics Forum},
+  volume  = {45},
+  number  = {7},
   year    = {2026},
-  note    = {To appear at Pacific Graphics 2026}
+  doi     = {10.1111/cgf.70614},
+  url     = {https://doi.org/10.1111/cgf.70614},
+  publisher = {The Eurographics Association and John Wiley & Sons Ltd.}
 }
 ```
-
-DOI, volume, issue, pages, and the final paper URL will be added after the publisher record becomes available.
 
 ## License and acknowledgements
 

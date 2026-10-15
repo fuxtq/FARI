@@ -9,6 +9,8 @@ authors:
     given-names: Xiao-Ming
 version: 0.1.0
 date-released: 2026-10-01
+repository-code: "https://github.com/fuxtq/FARI"
+url: "https://doi.org/10.1111/cgf.70614"
 preferred-citation:
   type: article
   title: "Function-Aware Regional Injection for Training-Free Image Editing"
@@ -18,5 +20,10 @@ preferred-citation:
     - family-names: Fu
       given-names: Xiao-Ming
   journal: Computer Graphics Forum
+  volume: 45
+  issue: 7
   year: 2026
-  notes: "To appear at Pacific Graphics 2026"
+  doi: "10.1111/cgf.70614"
+  url: "https://doi.org/10.1111/cgf.70614"
+  publisher:
+    name: "The Eurographics Association and John Wiley & Sons Ltd."
